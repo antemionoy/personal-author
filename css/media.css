@@ -1,0 +1,599 @@
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 19px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+    body .area_top h1 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    body .name_person {
+        display: none;
+    }
+
+    body .phone_person {
+        display: none;
+    }
+
+    body .area_top-phone {
+        font-size: 18px;
+    }
+
+    body .profile_mob {
+        font-size: 0;
+        background-color: transparent;
+        float: right;
+        line-height: normal;
+        padding-top: 7px;
+        text-align: right;
+    }
+
+    body .profile_mob:hover {
+        background-color: transparent;
+    }
+
+    body .profile_mob img {
+        width: 35px;
+        display: inline-block;
+    }
+
+    body .profile_mobile {
+        position: absolute;
+        top: 52px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 20;
+        background-color: #2d3641;
+        margin: 0;
+        display: none;
+        padding-bottom: 15px;
+        padding-top: 5px;
+    }
+
+    body .profile_mobile li {
+        width: 100%;
+        padding: 6px 0px 8px;
+        list-style: none;
+        border-bottom: 1px solid #fff;
+    }
+
+    body .profile_mobile li a {
+        padding: 0px 15px;
+        color: #fff;
+        display: block;
+    }
+
+    body .profile_mobile .phone_mobile {
+        color: #fa8585;
+    }
+
+    body .area_search input {
+        width: 70%;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
+    body .area_search button {
+        width: 30%;
+    }
+
+    body .app_title {
+        text-align: center;
+        min-height: 40px;
+    }
+
+    body .app_button-mob {
+        text-align: center;
+        display: block;
+    }
+
+    body .application_inset {
+        padding-bottom: 20px;
+    }
+
+    body .application_inset .app_button {
+        display: none;
+    }
+
+    body .app_button-mob a {
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        min-width: 160px;
+        min-height: 30px;
+        line-height: 28px;
+        background-color: #fa8585;
+        border: 1px solid #c94444;
+        text-transform: lowercase;
+        margin-top: 16px;
+    }
+
+    body .app_button-mob_work{
+        display: inline-block;
+    }
+
+    body .app_button-mob_work a {
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        display: block;
+        text-align: center;
+        min-width: 120px;
+        min-height: 30px;
+        line-height: 28px;
+        background-color: #fa8585;
+        border: 1px solid #c94444;
+        text-transform: lowercase;
+        margin-top: 16px;
+    }
+
+    body .app_btn-refuse {
+        text-align: center;
+    }
+
+    body .app_btn-refuse_mob a {
+        float: none;
+        margin-right: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: normal;
+        text-decoration: underline;
+        text-transform: lowercase;
+        color: #394451;
+        padding: 20px 0px 13px;
+    }
+
+    body .app_card h4 {
+        display: block;
+        margin-top: 10px;
+    }
+
+    body .app_shadow {
+        display: none;
+    }
+
+    body .load_file--item,
+    .your_files--item {
+        text-align: center;
+    }
+
+    body .app_chat-box form textarea {
+        min-height: 100px;
+    }
+
+    body .area_box {
+        height: 100%;
+    }
+
+    /*profile*/
+    body .nav-tabs>li {
+        padding: 0;
+        text-align: center;
+    }
+
+    body .nav-tabs>li.active>a {
+        border-bottom: 1px solid #ddd;
+    }
+    body .form-control {
+        margin-bottom: 20px;
+    }
+
+    body .form-group {
+        margin: 0;
+        /*padding: 0;*/
+    }
+
+    body table td {
+        font-size: 12px;
+    }
+
+    body .pass_res {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    body #education_add {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    body .radio label,
+    body .checkbox label {
+        display: inline;
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    body .form-group .radio,
+    body .form-group .checkbox {
+        padding: 0;
+    }
+
+    body .reg-note p {
+        font-size: 14px;
+    }
+    /* body .js-courses label{
+        width: 85%;
+    }
+*/
+    body .work-h .checkbox {
+        margin-left: 0;
+    }
+
+    .money_in {
+        text-align: center;
+        display: block;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .money_in b:last-child {
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    body .nav-pills>li {
+        float: none;
+    }
+
+    body .reg-item .reg-add {
+        font-size: 12px;
+        margin-top: 13px;
+    }
+
+    body .logo-box {
+        position: absolute;
+        left: 50%;
+        margin-left: -68px;
+    }
+
+    body .logo-box img {
+        width: 100px;
+        padding-top: 2px;
+    }
+
+    body .logo_botm img {
+        width: 60px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    /*tabs mobile*/
+    body .app_chat h4 {
+        display: none;
+    }
+
+    body .app_files h4 {
+        display: none;
+    }
+
+    .tabs__content {
+        display: none;
+    }
+
+    .tabs__content.active {
+        display: block;
+    }
+
+
+    body .block_btn {
+        border: 1px solid #666666;
+        margin: 0px 15px 10px;
+        display: block;
+    }
+
+    .btn-tab {
+        text-transform: uppercase;
+        min-height: 37px;
+        line-height: 37px;
+        font-size: 10px;
+        position: relative;
+        z-index: 1;
+        color: #000;
+        background-color: #edf0f3;
+        text-align: center;
+    }
+
+    .btn-tab.active {
+        background-color: #394451;
+        color: #fff;
+        padding-right: 50px;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        transition: 1s;
+    }
+
+    body .app_btn-refuse_mob {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    body .app_btn-refuse {
+        display: none;
+    }
+}
+
+
+@media(min-width: 768px) and (max-width: 1023px) {
+    body .area_top h1 {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    body .name_person {
+        display: none;
+    }
+
+    body .phone_person {
+        display: none;
+    }
+
+    body .area_top-phone {
+        font-size: 18px;
+    }
+
+    body .profile_mob {
+        font-size: 0;
+        background-color: transparent;
+        float: right;
+        line-height: normal;
+        padding-top: 7px;
+        text-align: right;
+    }
+
+    body .profile_mob:hover {
+        background-color: transparent;
+    }
+
+    body .profile_mob img {
+        width: 35px;
+        display: inline-block;
+    }
+
+    body .profile_mobile {
+        position: absolute;
+        top: 52px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 20;
+        background-color: #2d3641;
+        margin: 0;
+        /*display: none;*/
+        padding-bottom: 15px;
+        padding-top: 5px;
+    }
+
+    body .profile_mobile li {
+        width: 100%;
+        padding: 6px 0px 8px;
+        list-style: none;
+        border-bottom: 1px solid #fff;
+    }
+
+    body .profile_mobile li a {
+        padding: 0px 15px;
+        color: #fff;
+        display: block;
+    }
+
+    body .profile_mobile .phone_mobile {
+        color: #fa8585;
+    }
+
+    body .area_search input {
+        width: 85%;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
+    body .area_search button {
+        width: 15%;
+    }
+
+    body .app_title {
+        text-align: center;
+        min-height: 40px;
+    }
+
+    body .app_button-mob {
+        text-align: center;
+        display: block;
+    }
+
+    body .application_inset {
+        padding-bottom: 20px;
+    }
+
+    body .application_inset .app_button {
+        display: none;
+    }
+
+    body .app_button-mob a {
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        min-width: 160px;
+        min-height: 30px;
+        line-height: 28px;
+        background-color: #fa8585;
+        border: 1px solid #c94444;
+        text-transform: lowercase;
+        margin-top: 16px;
+    }
+    body .app_button-mob_work{
+        display: inline-block;
+    }
+
+    body .app_button-mob_work a {
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        display: block;
+        text-align: center;
+        min-width: 160px;
+        min-height: 30px;
+        line-height: 28px;
+        background-color: #fa8585;
+        border: 1px solid #c94444;
+        text-transform: lowercase;
+        margin-top: 16px;
+    }
+
+    body .app_btn-refuse_mob a {
+        float: none;
+        margin-right: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: normal;
+        text-decoration: underline;
+        text-transform: lowercase;
+        color: #394451;
+        padding: 20px 0px 13px;
+    }
+
+    body .app_card h4 {
+        display: block;
+        margin-top: 10px;
+    }
+
+    body .app_shadow {
+        display: none;
+    }
+
+    body .load_file--item,
+    .your_files--item {
+        text-align: center;
+    }
+
+    body .app_chat-box form textarea {
+        min-height: 100px;
+    }
+
+    body .area_box {
+        height: 100%;
+    }
+
+    /*profile*/
+    body .nav-tabs>li {
+        padding: 0;
+        text-align: center;
+    }
+
+    body .nav-tabs>li.active>a {
+        border-bottom: 1px solid #ddd;
+    }
+    body .form-control {
+        margin-bottom: 20px;
+    }
+
+    body .form-group {
+        margin: 0;
+        /*padding: 0;*/
+    }
+
+    body table td {
+        font-size: 12px;
+    }
+
+    body .pass_res {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    body #education_add {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    body .radio label,
+    body .checkbox label {
+        display: inline;
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    body .form-group .radio,
+    body .form-group .checkbox {
+        /*padding: 0;*/
+        padding-left: 0;
+        padding-right: 15px;
+    }
+
+    body .reg-note p {
+        font-size: 14px;
+    }
+
+    body .work-h .checkbox {
+        margin-left: 0;
+    }
+
+    body .logo-box {
+        position: absolute;
+        left: 50%;
+        margin-left: -68px;
+    }
+
+    body .logo-box img {
+        width: 100px;
+        padding-top: 2px;
+    }
+
+    body .block_btn {
+        display: none;
+    }
+
+    body .app_btn-refuse_mob {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    body .app_btn-refuse {
+        display: none;
+    }
+}
+
+@media (max-width: 1023px) {
+    body .app_description-box p {
+        font-size: 12px;
+    }
+
+    body .app_title a {
+        font-size: 16px;
+    }
+
+    body .load_file figure figcaption,
+    body .your_file figure figcaption {
+        font-size: 8px;
+    }
+
+    body .load_file-desc p {
+        font-size: 9px;
+    }
+
+    body .chat-messages_text {
+        font-size: 11px;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    /*profile*/
+    body .nav-tabs>li {
+        padding: 0px;
+    }
+}

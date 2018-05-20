@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="fonts/aquarelle_regular/aquarelle.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="css/menu_left_push.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/template.css">
+    <title>Wizard 24</title>
+</head>
+
+<body class="personal_area_page">
+    <div class="area_top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="name_person col-xs-12 col-sm-12 col-md-7 col-lg-8">
+                    <h1>Здравствуйте, Alexandr Александрович Drek!</h1>
+                </div>
+                <div class="phone_person col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <a class="area_top-phone" href="tel:+7900554666333">+7 900 554 666 333</a>
+                </div>
+                <a href="#" class="profile col-xs-3 col-sm-3 col-md-2 col-lg-1">Профиль</a>
+                <a href="#" class="col-xs-3 col-sm-3 col-md-2 col-lg-1 profile_mob">
+                    <img src="img/icon_profile.png" alt="Профиль">Профиль</a>
+                <ul class="profile_mobile">
+                    <li><a href="#">Изменить профиль</a></li>
+                    <li><a class="phone_mobile" href="tel:+7900554666333">+7 900 554 666 333</a></li>
+                </ul>
+                <div class="hamburger">
+                    <a href="#" data-toggle="body" id="sidebar-toggle">
+                        <div id="nav-icon2">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="area_box">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="sidebar">
+                    <div class="area_sidebar col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="finance_box">
+                            <a class="finance_click" href="#">Финансы</a>
+                            <div class="finance_down">
+                                <div class="finance_down-item clearfix">
+                                    <i>Начислено</i>
+                                    <span class="item_charged">1821 руб.</span>
+                                    <a href="#" rel="nofollow" class="get_money">Получить</a>
+                                </div>
+                                <div class="finance_down-item">
+                                    <i>Ожидается</i>
+                                    <span class="item_expected">200 руб.<a class="get_money" rel="nofollow" href="#">подробнее</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="applications_box">
+                            <div class="applications_box_down">
+                                <p>Мои заявки:</p>
+                                <ul>
+                                    <li class="active_item"><a href="#">Новые<i>1</i></a></li>
+                                    <li><a href="#">В работе<i>4</i></a></li>
+                                    <li><a href="#">Выполненные<i>3</i></a></li>
+                                    <li><a href="#">Корректировки<i>1</i></a></li>
+                                    <li><a href="#">Экспертиза<i>0</i></a></li>
+                                    <li><a href="#">Мои отказы<i>0</i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ending_box">
+                            <div class="ending_box_down">
+                                <ul>
+                                    <li><a href="#">Сообщения<i>1</i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="area_content col-xs-12 col-sm-12 col-md-9 col-lg-9 col-md-offset-3 col-lg-offset-3">
+                    <form class="area_search clearfix" action="/orders/search/">
+                        <input type="text" name="search" id="search" placeholder="Введите номер заявки или тему работы">
+                        <button>искать</button>
+                    </form>
+                    <span class="area_content-title">Новые заявки</span>
+                    <div class="application_box">
+                        <div class="application">
+                            <div class="application_nav clearfix">
+                                <div class="app app_number col-xs-12 col-sm-2 col-lg-2">
+                                    <a href="#">№153</a>
+                                </div>
+                                <div class="app app_status st-search_author col-xs-12 col-sm-5 col-lg-3">
+                                    <p>В поиске автора</p>
+                                </div>
+                                <div class="app app_message col-xs-6 col-sm-3 col-lg-2">
+                                    <p>0</p>
+                                </div>
+                                <div class="app app_inserts col-xs-6 col-sm-2 col-lg-1">
+                                    <p>0</p>
+                                </div>
+                                <div class="app app_time col-xs-6 col-sm-6 col-lg-2">
+                                    <p>Срок не указан</p>
+                                </div>
+                                <div class="app app_price col-xs-6 col-sm-6 col-lg-2">
+                                    <p>Цена не указана</p>
+                                </div>
+                            </div>
+                            <div class="application_inset clearfix">
+                                <div class="app_btn-refuse_mob col-xs-6 col-sm-6 col-lg-3 col-lg-3">
+                                    <a href="#" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".application" data-popup-text="Уверены, что хотите отказать от работы?" rel="nofollow">отказаться</a>
+                                </div>
+                                <div class="app_button-mob col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <a href="#" onclick="popup.url('Предложить условия', '/orders/setSuccess/id=153/'); return false;" rel="nofollow">Предложить условия</a>
+                                </div>
+                                <div class="app_title col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                    <a href="perconal_area_card.html">Тест</a>
+                                </div>
+                                <div class="app_button col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <a href="#" onclick="popup.url('Предложить условия', '/orders/setSuccess/id=153/'); return false;" rel="nofollow">Предложить условия</a>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="app_description col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <div class="app_description-box ">
+                                        <p>Проектирование самолетов, Дипломная работа, - стр., 14pt, Полуторный</p>
+                                    </div>
+                                </div>
+                                <div class="app_btn-refuse col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                    <a href="#" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".application" data-popup-text="Уверены, что хотите отказать от работы?" rel="nofollow">отказаться</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="application">
+                            <div class="application_nav clearfix">
+                                <div class="app app_number col-xs-12 col-sm-2 col-lg-2">
+                                    <a href="#">№153</a>
+                                </div>
+                                <div class="app app_status st-search_author col-xs-12 col-sm-5 col-lg-3">
+                                    <p>В поиске автора</p>
+                                </div>
+                                <div class="app app_message col-xs-6 col-sm-3 col-lg-2">
+                                    <p>0</p>
+                                </div>
+                                <div class="app app_inserts col-xs-6 col-sm-2 col-lg-1">
+                                    <p>0</p>
+                                </div>
+                                <div class="app app_time col-xs-6 col-sm-6 col-lg-2">
+                                    <p>Срок не указан</p>
+                                </div>
+                                <div class="app app_price col-xs-6 col-sm-6 col-lg-2">
+                                    <p>Цена не указана</p>
+                                </div>
+                            </div>
+                            <div class="application_inset clearfix">
+                                <div class="app_btn-refuse_mob col-xs-6 col-sm-6 col-lg-3 col-lg-3">
+                                    <a href="#" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".application" data-popup-text="Уверены, что хотите отказать от работы?" rel="nofollow">отказаться</a>
+                                </div>
+                                <div class="app_button-mob col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <a href="#" onclick="popup.url('Предложить условия', '/orders/setSuccess/id=153/'); return false;" rel="nofollow">Предложить условия</a>
+                                </div>
+                                <div class="app_title col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                    <a href="perconal_area_card.html">Тест</a>
+                                </div>
+                                <div class="app_button col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <a href="#" onclick="popup.url('Предложить условия', '/orders/setSuccess/id=153/'); return false;" rel="nofollow">Предложить условия</a>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="app_description col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <div class="app_description-box ">
+                                        <p>Проектирование самолетов, Дипломная работа, - стр., 14pt, Полуторный</p>
+                                    </div>
+                                </div>
+                                <div class="app_btn-refuse col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                    <a href="#" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".application" data-popup-text="Уверены, что хотите отказать от работы?" rel="nofollow">отказаться</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="application">
+                            <div class="application_nav clearfix">
+                                <div class="app app_number col-xs-12 col-sm-2 col-lg-2">
+                                    <a href="#">№153</a>
+                                </div>
+                                <div class="app app_status st-search_author col-xs-12 col-sm-5 col-lg-3">
+                                    <p>В поиске автора</p>
+                                </div>
+                                <div class="app app_message col-xs-6 col-sm-3 col-lg-2">
+                                    <p>0</p>
+                                </div>
+                                <div class="app app_inserts col-xs-6 col-sm-2 col-lg-1">
+                                    <p>0</p>
+                                </div>
+                                <div class="app app_time col-xs-6 col-sm-6 col-lg-2">
+                                    <p>Срок не указан</p>
+                                </div>
+                                <div class="app app_price col-xs-6 col-sm-6 col-lg-2">
+                                    <p>Цена не указана</p>
+                                </div>
+                            </div>
+                            <div class="application_inset clearfix">
+                                <div class="app_btn-refuse_mob col-xs-6 col-sm-6 col-lg-3 col-lg-3">
+                                    <a href="#" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".application" data-popup-text="Уверены, что хотите отказать от работы?" rel="nofollow">отказаться</a>
+                                </div>
+                                <div class="app_button-mob col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <a href="#" onclick="popup.url('Предложить условия', '/orders/setSuccess/id=153/'); return false;" rel="nofollow">Предложить условия</a>
+                                </div>
+                                <div class="app_title col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                    <a href="perconal_area_card.html">Тест</a>
+                                </div>
+                                <div class="app_button col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <a href="#" onclick="popup.url('Предложить условия', '/orders/setSuccess/id=153/'); return false;" rel="nofollow">Предложить условия</a>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="app_description col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <div class="app_description-box ">
+                                        <p>Проектирование самолетов, Дипломная работа, - стр., 14pt, Полуторный</p>
+                                    </div>
+                                </div>
+                                <div class="app_btn-refuse col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                    <a href="#" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".application" data-popup-text="Уверены, что хотите отказать от работы?" rel="nofollow">отказаться</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="application">
+                            <div class="application_nav clearfix">
+                                <div class="app app_number col-xs-12 col-sm-2 col-lg-2">
+                                    <a href="#">№153</a>
+                                </div>
+                                <div class="app app_status st-search_author col-xs-12 col-sm-5 col-lg-3">
+                                    <p>В поиске автора</p>
+                                </div>
+                                <div class="app app_message col-xs-6 col-sm-3 col-lg-2">
+                                    <p>0</p>
+                                </div>
+                                <div class="app app_inserts col-xs-6 col-sm-2 col-lg-1">
+                                    <p>0</p>
+                                </div>
+                                <div class="app app_time col-xs-6 col-sm-6 col-lg-2">
+                                    <p>Срок не указан</p>
+                                </div>
+                                <div class="app app_price col-xs-6 col-sm-6 col-lg-2">
+                                    <p>Цена не указана</p>
+                                </div>
+                            </div>
+                            <div class="application_inset clearfix">
+                                <div class="app_btn-refuse_mob col-xs-6 col-sm-6 col-lg-3 col-lg-3">
+                                    <a href="#" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".application" data-popup-text="Уверены, что хотите отказать от работы?" rel="nofollow">отказаться</a>
+                                </div>
+                                <div class="app_button-mob col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <a href="#" onclick="popup.url('Предложить условия', '/orders/setSuccess/id=153/'); return false;" rel="nofollow">Предложить условия</a>
+                                </div>
+                                <div class="app_title col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                    <a href="perconal_area_card.html">Тест</a>
+                                </div>
+                                <div class="app_button col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <a href="#" onclick="popup.url('Предложить условия', '/orders/setSuccess/id=153/'); return false;" rel="nofollow">Предложить условия</a>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="app_description col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <div class="app_description-box ">
+                                        <p>Проектирование самолетов, Дипломная работа, - стр., 14pt, Полуторный</p>
+                                    </div>
+                                </div>
+                                <div class="app_btn-refuse col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                    <a href="#" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".application" data-popup-text="Уверены, что хотите отказать от работы?" rel="nofollow">отказаться</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="application">
+                            <div class="application_nav clearfix">
+                                <div class="app app_number col-xs-12 col-sm-2 col-lg-2">
+                                    <a href="#">№153</a>
+                                </div>
+                                <div class="app app_status st-search_author col-xs-12 col-sm-5 col-lg-3">
+                                    <p>В поиске автора</p>
+                                </div>
+                                <div class="app app_message col-xs-6 col-sm-3 col-lg-2">
+                                    <p>0</p>
+                                </div>
+                                <div class="app app_inserts col-xs-6 col-sm-2 col-lg-1">
+                                    <p>0</p>
+                                </div>
+                                <div class="app app_time col-xs-6 col-sm-6 col-lg-2">
+                                    <p>Срок не указан</p>
+                                </div>
+                                <div class="app app_price col-xs-6 col-sm-6 col-lg-2">
+                                    <p>Цена не указана</p>
+                                </div>
+                            </div>
+                            <div class="application_inset clearfix">
+                                <div class="app_btn-refuse_mob col-xs-6 col-sm-6 col-lg-3 col-lg-3">
+                                    <a href="#" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".application" data-popup-text="Уверены, что хотите отказать от работы?" rel="nofollow">отказаться</a>
+                                </div>
+                                <div class="app_button-mob col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <a href="#" onclick="popup.url('Предложить условия', '/orders/setSuccess/id=153/'); return false;" rel="nofollow">Предложить условия</a>
+                                </div>
+                                <div class="app_title col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                    <a href="perconal_area_card.html">Тест</a>
+                                </div>
+                                <div class="app_button col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <a href="#" onclick="popup.url('Предложить условия', '/orders/setSuccess/id=153/'); return false;" rel="nofollow">Предложить условия</a>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="app_description col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <div class="app_description-box">
+                                        <p>Проектирование самолетов, Дипломная работа, - стр., 14pt, Полуторный</p>
+                                    </div>
+                                </div>
+                                <div class="app_btn-refuse col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                    <a href="#" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".application" data-popup-text="Уверены, что хотите отказать от работы?" rel="nofollow">отказаться</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="application">
+                            <div class="application_nav clearfix">
+                                <div class="app app_number col-xs-12 col-sm-2 col-lg-2">
+                                    <a href="#">№153</a>
+                                </div>
+                                <div class="app app_status st-search_author col-xs-12 col-sm-5 col-lg-3">
+                                    <p>В поиске автора</p>
+                                </div>
+                                <div class="app app_message col-xs-6 col-sm-3 col-lg-2">
+                                    <p>0</p>
+                                </div>
+                                <div class="app app_inserts col-xs-6 col-sm-2 col-lg-1">
+                                    <p>0</p>
+                                </div>
+                                <div class="app app_time col-xs-6 col-sm-6 col-lg-2">
+                                    <p>Срок не указан</p>
+                                </div>
+                                <div class="app app_price col-xs-6 col-sm-6 col-lg-2">
+                                    <p>Цена не указана</p>
+                                </div>
+                            </div>
+                            <div class="application_inset clearfix">
+                                <div class="app_btn-refuse_mob col-xs-6 col-sm-6 col-lg-3 col-lg-3">
+                                    <a href="#" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".application" data-popup-text="Уверены, что хотите отказать от работы?" rel="nofollow">отказаться</a>
+                                </div>
+                                <div class="app_button-mob col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <a href="#" onclick="popup.url('Предложить условия', '/orders/setSuccess/id=153/'); return false;" rel="nofollow">Предложить условия</a>
+                                </div>
+                                <div class="app_title col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                    <a href="perconal_area_card.html">Тест</a>
+                                </div>
+                                <div class="app_button col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                    <a href="#" onclick="popup.url('Предложить условия', '/orders/setSuccess/id=153/'); return false;" rel="nofollow">Предложить условия</a>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="app_description col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <div class="app_description-box ">
+                                        <p>Проектирование самолетов, Дипломная работа, - стр., 14pt, Полуторный</p>
+                                    </div>
+                                </div>
+                                <div class="app_btn-refuse col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                    <a href="#" onclick="popup.confirm($(this)); return false;" data-popup-ajax-remove=".application" data-popup-text="Уверены, что хотите отказать от работы?" rel="nofollow">отказаться</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="area_bottom">
+                        <div class="logo_botm">
+                            <a href="personal_area.html"><img src="img/wizard_logo.png" alt="Логотип"></a>
+                        </div>
+                        <div class="block_user">
+                            <ul>
+                                <li><a href="#">Условия работы</a></li>
+                                <li><a href="#">Выход</a></li>
+                            </ul>
+                            <div class="clearfix"></div>
+                            <p>OOO "ДЖАЗ" Все права защищены.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
